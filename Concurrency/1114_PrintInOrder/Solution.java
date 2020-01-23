@@ -1,3 +1,5 @@
+// Your runtime beats 81.70 % of java submissions.
+
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
