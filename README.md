@@ -2,12 +2,12 @@
 
 This repository contains my solutions to specific coding challenges on the LeetCode website, as part of my preparation for technical job interviews. All challenges have been classified according to their respective topics. For each of these challenges, I have uploaded only the parts of the code that required completion, so the `main()` function is absent.
 
-Total number of questions solved: `13`
+Total number of questions solved: `14`
 
 Level of difficulty of questions solved:
-* Easy: `2`
+* Easy: `3`
 * Medium: `11`
 * Hard: `0`
 
 Language used:
-* Java: `13`
+* Java: `14`
