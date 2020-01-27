@@ -1,5 +1,5 @@
-// Runtime: 6 ms, faster than 63.56% of Java online submissions for Task Scheduler.
-// Memory Usage: 42.8 MB, less than 5.88% of Java online submissions for Task Scheduler.
+// Runtime: 5 ms, faster than 64.63% of Java online submissions for Task Scheduler.
+// Memory Usage: 42.5 MB, less than 5.88% of Java online submissions for Task Scheduler.
 
 import java.util.Arrays;
 
@@ -14,11 +14,10 @@ class Solution
         }
         Arrays.sort(letterFreq);
         int totalTime = 0;
-        int minIdx = 25-n > 0 ? 0 : 25-n;
         while (letterFreq[25] > 0)
         {
             int coolingTime = 0;
-            for (int idx = 25; idx >= minIdx; --idx)
+            for (int idx = 25; idx >= 25-n; --idx)
             {
                 if (idx >= 0 && letterFreq[idx] > 0)
                 {
@@ -27,7 +26,7 @@ class Solution
                 ++coolingTime;
                 if (letterFreq[25] == 0 || coolingTime == n+1)
                 {
-                    idx = minIdx-1;
+                    idx = 25-n-1;
                 }
             }
             totalTime += coolingTime;
