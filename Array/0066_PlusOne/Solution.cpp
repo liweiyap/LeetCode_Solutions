@@ -15,7 +15,7 @@ public:
                 digits[digits.size()-1] = 0;
                 ++digits[digits.size()-2];
 
-                for (int carry = digits.size()-2; carry >= 1; --carry)
+                for (size_t carry = digits.size()-2; carry >= 1; --carry)
                 {
                     if (digits[carry] >= 10)
                     {

@@ -12,7 +12,7 @@ public:
         std::vector<int> waitingTimes(T.size(), 0);
         std::stack<int> s;
         
-        for (int currIdx = 0; currIdx < T.size(); ++currIdx)
+        for (size_t currIdx = 0; currIdx < T.size(); ++currIdx)
         {
             while (!s.empty() && T[currIdx] > T[s.top()])
             {
