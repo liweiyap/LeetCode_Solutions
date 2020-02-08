@@ -8,7 +8,7 @@ Input: s = "anagram", t = "nagaram"
 Output: true
 ```
 
-**Example 1:**
+**Example 2:**
 ```
 Input: s = "rat", t = "car"
 Output: false
