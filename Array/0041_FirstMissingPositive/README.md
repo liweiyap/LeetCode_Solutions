@@ -1,7 +1,24 @@
-## 739. Daily Temperatures (Difficulty: Medium)
+## 41. First Missing Positive (Difficulty: Hard)
 
-Given a list of daily temperatures `T`, return a list such that, for each day in the input, tells you how many days you would have to wait until a warmer temperature. If there is no future day for which this is possible, put `0` instead.
+Given an unsorted integer array, find the smallest missing positive integer.
 
-For example, given the list of temperatures `T = [73, 74, 75, 71, 69, 72, 76, 73]`, your output should be `[1, 1, 4, 2, 1, 1, 0, 0]`.
+**Example 1:**
+```
+Input: [1,2,0]
+Output: 3
+```
 
-**Note:** The length of `temperatures` will be in the range `[1, 30000]`. Each temperature will be an integer in the range `[30, 100]`.
+**Example 2:**
+```
+Input: [3,4,-1,1]
+Output: 2
+```
+
+**Example 3:**
+```
+Input: [7,8,9,11,12]
+Output: 1
+```
+
+**Note:**
+Your algorithm should run in *O(n)* time and uses constant extra space.
