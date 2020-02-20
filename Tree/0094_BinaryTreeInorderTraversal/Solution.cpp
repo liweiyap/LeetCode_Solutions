@@ -44,7 +44,7 @@ public:
                 inorderNodes.push_back(node);
                 
                 if (node->right &&
-                std::find(inorderNodes.begin(), inorderNodes.end(), node->right) == inorderNodes.end())
+                    std::find(inorderNodes.begin(), inorderNodes.end(), node->right) == inorderNodes.end())
                 {
                     s.push(node->right);
                 }

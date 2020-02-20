@@ -9,6 +9,6 @@ Level of difficulty of questions solved:
 * Medium: `22`
 * Hard: `4`
 
-Language used:
+Language used (some questions are solved multiple times using different languages):
 * Java: `19`
-* C++: `12`
+* C++: `13`

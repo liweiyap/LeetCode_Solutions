@@ -1,7 +1,21 @@
-## 739. Daily Temperatures (Difficulty: Medium)
+## 66. Plus One (Difficulty: Easy)
 
-Given a list of daily temperatures `T`, return a list such that, for each day in the input, tells you how many days you would have to wait until a warmer temperature. If there is no future day for which this is possible, put `0` instead.
+Given a **non-empty** array of digits representing a non-negative integer, plus one to the integer.
 
-For example, given the list of temperatures `T = [73, 74, 75, 71, 69, 72, 76, 73]`, your output should be `[1, 1, 4, 2, 1, 1, 0, 0]`.
+The digits are stored such that the most significant digit is at the head of the list, and each element in the array contain a single digit.
 
-**Note:** The length of `temperatures` will be in the range `[1, 30000]`. Each temperature will be an integer in the range `[30, 100]`.
+You may assume the integer does not contain any leading zero, except the number 0 itself.
+
+**Example 1:**
+```
+Input: [1,2,3]
+Output: [1,2,4]
+Explanation: The array represents the integer 123.
+```
+
+**Example 2:**
+```
+Input: [4,3,2,1]
+Output: [4,3,2,2]
+Explanation: The array represents the integer 4321.
+```
