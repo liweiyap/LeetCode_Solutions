@@ -1,6 +1,9 @@
 // Runtime: 64 ms, faster than 27.87% of C++ online submissions for Print Zero Even Odd.
 // Memory Usage: 9.3 MB, less than 100.00% of C++ online submissions for Print Zero Even Odd.
 
+#include <mutex>
+#include <condition_variable>
+
 class ZeroEvenOdd
 {
 private:

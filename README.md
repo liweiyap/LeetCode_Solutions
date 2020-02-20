@@ -11,4 +11,4 @@ Level of difficulty of questions solved:
 
 Language used (some questions are solved multiple times using different languages):
 * Java: `19`
-* C++: `15`
+* C++: `16`
