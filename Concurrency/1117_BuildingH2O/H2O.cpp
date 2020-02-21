@@ -41,3 +41,10 @@ public:
         conditionalReset();
         cond.notify_all();
     }
+    
+private:
+    std::mutex m;
+    std::condition_variable cond;
+    int n_hydrogen = 0;
+    int n_oxygen = 0;
+};
