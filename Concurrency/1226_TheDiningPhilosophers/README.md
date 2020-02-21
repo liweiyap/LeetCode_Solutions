@@ -12,9 +12,9 @@ Design a discipline of behavior (a concurrent algorithm) such that no philosophe
   <img width="300" height="300" src="https://assets.leetcode.com/uploads/2019/09/24/an_illustration_of_the_dining_philosophers_problem.png">
 </p>
 
-<p align="center"><it>
+<p align="center"><i>
   The problem statement and the image above are taken from <a href="https://en.wikipedia.org/wiki/Dining_philosophers_problem">wikipedia.org</a>
-</it></p>
+</i></p>
 
 The philosophers' ids are numbered from **0** to **4** in a **clockwise** order. Implement the function `void wantsToEat(philosopher, pickLeftFork, pickRightFork, eat, putLeftFork, putRightFork)` where:
 * `philosopher` is the id of the philosopher who wants to eat.
