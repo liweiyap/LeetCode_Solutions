@@ -28,7 +28,7 @@ public:
         int rightFork = (philosopher + 4) % 5;
         
         // introduce order to forks
-        // bundle forks together so that >1 philosopher can eat at any one time
+        // bundle forks together so that >1 philosopher can eat at any one time (faster)
         int firstFork = (philosopher % 2 == 0) ? leftFork : rightFork;
         int secondFork = (philosopher % 2 == 0) ? rightFork : leftFork;
         
