@@ -1,5 +1,5 @@
-// Runtime: 148 ms, faster than 67.07% of C++ online submissions for Print in Order
-// Memory Usage: 9.3 MB, less than 100.00% of C++ online submissions for Print in Order.
+// Runtime: 152 ms, faster than 63.67% of C++ online submissions for Print in Order.
+// Memory Usage: 9.2 MB, less than 100.00% of C++ online submissions for Print in Order.
 
 #include <atomic>
 #include <thread>
@@ -8,7 +8,10 @@
 class Foo
 {
 public:
-    Foo(){}
+    Foo()
+    {
+        iter.store(0);
+    }
 
     void first(function<void()> printFirst)
     {
@@ -50,5 +53,5 @@ public:
     }
     
 private:
-    std::atomic<int> iter = 0;
+    std::atomic<int> iter;
 };
