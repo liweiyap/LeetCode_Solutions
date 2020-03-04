@@ -1,6 +1,8 @@
 // Runtime: 8 ms, faster than 98.43% of C++ online submissions for Single Number.
 // Memory Usage: 9.1 MB, less than 100.00% of C++ online submissions for Single Number.
 
+#include <vector>
+
 class Solution
 {
 public:
