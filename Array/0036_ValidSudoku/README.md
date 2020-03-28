@@ -8,8 +8,8 @@ Determine if a 9x9 Sudoku board is valid. Only the filled cells need to be valid
 
 <p align="center">
   <img height="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/250px-Sudoku-by-L2G-20050714.svg.png">
+  <br>A partially filled sudoku which is valid.
 </p>
-<p align="center">A partially filled sudoku which is valid.</p>
 
 The Sudoku board could be partially filled, where empty cells are filled with the character `'.'`.
 
