@@ -33,7 +33,7 @@ Output: no cycle
 Explanation: There is no cycle in the linked list.
 ```
 <p>
-  <img height="150" src="https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test3.png">
+  <img height="100" src="https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test3.png">
 </p>
 
 **Follow-up**:

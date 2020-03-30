@@ -2,11 +2,11 @@
 
 This repository contains my solutions to specific coding challenges on the LeetCode website, as part of my preparation for technical job interviews. All challenges have been classified according to their respective topics. For each of these challenges, I have uploaded only the parts of the code that required completion, so the `main()` function is absent.
 
-Total number of questions solved: `64`
+Total number of questions solved: `65`
 
 Level of difficulty of questions solved:
 * Easy: `21`
-* Medium: `37`
+* Medium: `38`
 * Hard: `6`
 
 Language used (some questions are solved multiple times using different languages):
@@ -14,4 +14,4 @@ Language used (some questions are solved multiple times using different language
 * Java: `19`
 * SQL: `7`
 * Bash: `3`
-* C: `2`
+* C: `3`
