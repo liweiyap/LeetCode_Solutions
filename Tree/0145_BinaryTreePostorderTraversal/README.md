@@ -1,4 +1,4 @@
-## 145. Binary Tree Postorder Traversal (Difficulty: Hard)
+## 145. Binary Tree Postorder Traversal (Difficulty: Medium)
 
 Given a binary tree, return the *postorder* traversal of its nodes' values.
 
