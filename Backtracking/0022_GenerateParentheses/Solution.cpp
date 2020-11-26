@@ -9,13 +9,13 @@ class Solution
 public:
     std::vector<std::string> generateParenthesis(int nPairs)
     {
-        helper("", 0, 0, nPairs);
+        backtracker("", 0, 0, nPairs);
         return combinations;
     }
     
 private:
     // recursion
-    void helper(std::string str, int nOpen, int nClose, int nPairs)
+    void backtracker(std::string str, int nOpen, int nClose, int nPairs)
     {
         if (nOpen == nPairs && nClose == nPairs)
         {
@@ -25,12 +25,12 @@ private:
         
         if (nOpen > nClose)
         {
-            helper(str+")", nOpen, nClose+1, nPairs);
+            backtracker(str+")", nOpen, nClose+1, nPairs);
         }
         
         if (nOpen < nPairs)
         {
-            helper(str+"(", nOpen+1, nClose, nPairs);
+            backtracker(str+"(", nOpen+1, nClose, nPairs);
         }
     }
     
