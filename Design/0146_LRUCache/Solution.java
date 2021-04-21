@@ -1,7 +1,7 @@
 /* Without LinkedHashMap */
 
-// Runtime: 251 ms, faster than 5.03% of Java online submissions for LRU Cache.
-// Memory Usage: 47.3 MB, less than 41.96% of Java online submissions for LRU Cache.
+// Runtime: 226 ms, faster than 5.03% of Java online submissions for LRU Cache.
+// Memory Usage: 46.7 MB, less than 97.43% of Java online submissions for LRU Cache.
 
 class LRUCache
 {
@@ -51,7 +51,6 @@ class LRUCache
         if (_capacity == _keyLinkedList.size())
         {
             int firstKey = (int) _keyLinkedList.iterator().next();
-            System.out.print("put 0. firstKey = " + firstKey + "\n======\n");
             _keyLinkedList.removeFirst();
             _hashMap.remove(firstKey);
         }
