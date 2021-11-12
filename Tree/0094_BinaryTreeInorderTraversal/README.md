@@ -1,4 +1,4 @@
-## 94. Binary Tree Inorder Traversal (Difficulty: Medium)
+## 94. Binary Tree Inorder Traversal (Difficulty: Easy)
 
 Given a binary tree, return the *inorder* traversal of its nodes' values.
 
